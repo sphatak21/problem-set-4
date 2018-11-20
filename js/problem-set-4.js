@@ -40,7 +40,9 @@ function celsius() {
   //////////////////////////////////////////////////////// DO NOT MODIFY
   let cels = ((Math.random() * 1001) - 100).toFixed(2); // DO NOT MODIFY
   //////////////////////////////////////////////////////// DO NOT MODIFY
+
   let fahrenheit=((cels * 9/5) + 32).toFixed(2);
+
   document.getElementById("output3").innerHTML=(cels+" degrees Celsius equals "+fahrenheit + " degrees Fahrenheit.");
   // The above code generates a random number between -100 and 1000
   // (inclusive), and rounds this value to 2 decimal places.
@@ -234,6 +236,7 @@ function change() {
   ////////////////////// DO NOT MODIFY
 
   // WRITE YOUR EXERCISE 10 CODE HERE
+
   amount=amount*100;
   
   let quarters2=Math.floor(amount/25);
@@ -247,6 +250,7 @@ function change() {
   }
 
   document.getElementById("output10").innerHTML=(coins+coinWord);  
+
   ////////////////////////// DO NOT MODIFY
   check("change", input); // DO NOT MODIFY
   ////////////////////////// DO NOT MODIFY
