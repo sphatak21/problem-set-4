@@ -234,7 +234,6 @@ function change() {
   ////////////////////// DO NOT MODIFY
 
   // WRITE YOUR EXERCISE 10 CODE HERE
-<<<<<<< HEAD
   amount=amount*100;
   
   let quarters2=Math.floor(amount/25);
